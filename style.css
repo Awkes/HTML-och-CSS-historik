@@ -121,12 +121,14 @@ footer{
 }
 
 #tim h1 {
-    display: inline-block;
-    position: absolute;
-    margin-bottom: 200px;
-    margin-left: 100px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    background-color: #444;
 }
-
+/*
 #tim{
     background-image: url("images/Sir_Tim_Berners-Lee.jpg");
     width: 100vw;
@@ -134,3 +136,4 @@ footer{
     background-size: contain;
     background-repeat: no-repeat;
 }
+*/
