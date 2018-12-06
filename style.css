@@ -1,16 +1,6 @@
+/* GENERAL */
 * {
     box-sizing: border-box;
-}
-
-.bottom-left {
-    position: absolute;
-    bottom: 80px;
-    left: 160px;
-    color: #FFF;
-}
-
-#tim img, #html img, #css img, #omoss img {
-    width: 100%;
 }
 
 body{
@@ -19,9 +9,12 @@ body{
     padding: 0;
     font-family: Quicksand;
 }
-.test{
-    color:black;
+
+img {
+    max-width: 100%;
 }
+
+/* HEADER */
 header{
     background-color: #000;
     color: #FFF;
@@ -31,7 +24,7 @@ header{
 }
 
 #logo{
-
+    
 }
 
 #logo h1{
@@ -78,31 +71,40 @@ nav{
     
 }
 
+/* MAIN */
 main{
     background-color: #EEE;
-    border: 1px solid #000;
+}
+
+#tim,#html,#css,#omoss {
+    background-color: #444;
+}
+#tim img, #html img, #css img, #omoss img {
+    width: 100%;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#tim h1,#html h1,#css h1,#omoss h1 {
+    margin: 0;
+    padding: 5px 12px 10px 12px;
+    color: #fff;
+    border-bottom: 1px solid #000;
+
 }
 
 .both{
 
 }
 
-.left{
+.left, .right{
     background-color: #FFF;
     border: 1px solid #DDD;
     margin: 10px;
     padding: 10px;
 }
 
-.right{
-    background-color: #FFF;
-    margin: 10px;
-    padding: 10px;
-}
-
-css{
-
-}
+/* FOOTER */
 
 .icons{
 
@@ -120,20 +122,3 @@ footer{
 
 }
 
-#tim h1 {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    margin: 0px;
-    padding: 0px;
-    color: #fff;
-    background-color: #444;
-}
-/*
-#tim{
-    background-image: url("images/Sir_Tim_Berners-Lee.jpg");
-    width: 100vw;
-    height: 37.1vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-*/
