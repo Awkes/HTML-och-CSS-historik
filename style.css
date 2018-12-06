@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+.bottom-left {
+    position: absolute;
+    bottom: 80px;
+    left: 160px;
+    color: #FFF;
+}
+
 #tim img, #html img, #css img, #omoss img {
     width: 100%;
 }
@@ -111,4 +118,19 @@ css{
 
 footer{
 
+}
+
+#tim h1 {
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 200px;
+    margin-left: 100px;
+}
+
+#tim{
+    background-image: url("images/Sir_Tim_Berners-Lee.jpg");
+    width: 100vw;
+    height: 37.1vw;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
