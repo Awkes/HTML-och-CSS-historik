@@ -71,9 +71,23 @@ nav{
     
 }
 
+.profiltext{
+    float: right;
+    width: 85%;
+}
+
+.profilbild{
+    width: 10%;
+    border-radius: 100%;
+}
+
 /* MAIN */
 main{
     background-color: #EEE;
+}
+
+main section{
+    padding-top: 0px;
 }
 
 #tim,#html,#css,#omoss {
@@ -102,23 +116,53 @@ main{
     border: 1px solid #DDD;
     margin: 10px;
     padding: 10px;
+    word-wrap: break-word;
+}
+
+.left h2, .right h2{
+    margin-top: 0px;
 }
 
 /* FOOTER */
 
-.icons{
-
+#icons, #sitemap, #copy{
+    text-align: center;
 }
 
-.sitemap{
-
+#sitemap{
+    border-top: 1px dotted #FFF;
+    border-bottom: 1px dotted #FFF;
 }
 
-.copy{
+#icons img{
+    margin: 10px;
+    position: relative;
+}
 
+#sitemap a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+#sitemap ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sitemap li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#copy{
+    padding: 5px;
+    font-size: 0.8em;
 }
 
 footer{
-
+    background-color: #000;
+    margin-top: 50px;
+    color: #FFF;
 }
 
