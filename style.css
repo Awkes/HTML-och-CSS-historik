@@ -52,10 +52,18 @@ header{
 
 #logo h1{
     line-height: 0;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+    font-size: 3em;
+    margin-left: 5px;
+    font-weight: normal;
 }
 
 #logo h2{
-    line-height: 0;
+    line-height: 10px;
+    margin-left: 8px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: normal;
 }
 
 #navigation{
@@ -202,7 +210,9 @@ footer{
     #navigation {
         width: 50%;
         float: right;
-        margin-top: 12px;
+        margin-top: 27px;
+        text-align: right;
+        padding-right: 25px;
     }
     
     /* MAIN */
