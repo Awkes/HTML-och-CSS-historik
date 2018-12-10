@@ -18,6 +18,29 @@ img {
     max-width: 100%;
 }
 
+.clearfix {
+    clear: both;
+}
+
+.backToTop{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 99;
+    font-size: 15px;
+    opacity: 0.75;
+}
+
+.backToTop a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 5px 14px;
+    color: #333;
+}
+
 /* HEADER */
 header{
     background-color: #000;
@@ -70,15 +93,6 @@ header{
     color: #000;
 }
 
-nav{
-    
-}
-
-
-.clearfix {
-    clear: both;
-}
-
 /* MAIN */
 main{
     background-color: #EEE;
@@ -98,10 +112,6 @@ main{
     padding: 5px 12px 10px 12px;
     color: #fff;
     border-bottom: 1px solid #000;
-    
-}
-
-.both{
     
 }
 
@@ -174,26 +184,5 @@ main{
 
 footer{
     background-color: #000;
-    margin-top: 50px;
     color: #FFF;
-}
-
-.backToTop{
-    background-color: #eee;
-    border: 1px solid #ccc;
-    padding: 5px 14px;
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    cursor: pointer;
-    z-index: 99;
-    font-size: 15px;
-    opacity: 0.75;
-}
-
-.backToTop a{
-    display: block;
-    text-decoration: none;
-    font-size: 1.5em;
-    color: #333;
 }
