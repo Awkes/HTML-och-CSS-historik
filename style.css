@@ -3,7 +3,11 @@
     box-sizing: border-box;
 }
 
-body{
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: #EEE;
     margin: 0;
     padding: 0;
