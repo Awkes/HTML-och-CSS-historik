@@ -10,9 +10,8 @@
 </head>
 
 <body>
-    <a name="top" id="top"></a>
     <!-- HEADER -->
-    <header>
+    <header id="header">
         <!-- LOGO -->
         <div id="logo">
             <h1>HTML och CSS</h1>
@@ -50,11 +49,11 @@
     <main>
         <!-- INNEHÅLL -->
         <!-- Tim Berners-Lee -->
-        <section id="tim" class="both">
+        <div id="tim" class="both">
             <img src="images/Sir_Tim_Berners-Lee.jpg" alt="Tim Berners-Lee">
             <h1>Tim Berners-Lee</h1>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <p>
                 Tim Berners-Lee började 1963 att studera fysik på Oxford och redan som student byggde han sin första
                 dator.
@@ -73,8 +72,8 @@
                 endast på CERN,
                 men det blev år 1989 grunden till den idé som skulle utvecklas till att bli World Wide Web.
             </p>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <p>
                 20 dec 1990 skapade han den första webbplatsen, en sida om CERN och 1991 gjorde han sidan och webben
                 tillgänglig för
@@ -97,8 +96,8 @@
                 ett internationellt samfund som ägnat sig åt att utveckla öppna webbstandarder. Han är idag fortfarande
                 direktör för W3C.
             </p>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <h2>Källor</h2>
             <ul>
                 <li>
@@ -117,14 +116,14 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </div>
 
         <!-- HTML Historik -->
-        <section id="html" class="both">
+        <div id="html" class="both">
             <img src="images/html.png" alt="HTML">
             <h1>HTML Historik</h1>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <h2>HTML 1.0</h2>
             <p>
                 Tim Berners-Lee specificerade <abbr title="HyperText Markup Language">HTML</abbr> och skrev den
@@ -149,8 +148,8 @@
                 och formellt definierades det också så
                 utav <abbr title="Internet Engineering Task Force">IETF</abbr>.
             </p>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <h2>HTML 2.0</h2>
             <p>
                 I slutet av 1993 kom internet-drafterna av specifikationerna för HTML (av Tim Berners-Lee och
@@ -168,8 +167,8 @@
                 del andra
                 funktioner.
             </p>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <h2>HTML 3.0 / 3.2</h2>
             <p>
                 Nu hade fler och fler personer börjat använda webben och många människor började lära sig HTML.
@@ -202,8 +201,8 @@
             <p>
                 W3C skapade i sin tur HTML 3.2 som i Januari 1997 blev en officiell standard.
             </p>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <h2>HTML 4.0 / 4.01</h2>
             <p>
                 Redan i December 1997, bara 10 månader efter att HTML 3.2 blivit officiell standard, så
@@ -239,8 +238,8 @@
                 del nya attribut, nya funktioner, rättelser och buggfixar med mera. För en fullständig lista av
                 ändringar rekommenderas följande dokument hos W3C, HTML 4 Changes.
             </p>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <h2>XHTML 1.0 / 1.1</h2>
             <p>
                 <abbr title="eXtensible Hyper Text Markup Language">XHTML</abbr> var nästa steg i evolutionen
@@ -263,8 +262,8 @@
                 lades
                 arbetet ner för att att istället fokusera på HTML5.
             </p>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <h2>HTML 5</h2>
             <p>
                 HTML 5 är den senaste standarden för HTML och XHTML.
@@ -292,13 +291,14 @@
                 HTML5 syntaxen baseras inte längre på SGML, även om det fortfarande
                 finns likheter.
             </p>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <h2>HTML-Element</h2>
             <p>
                 För en översikt av implementering av taggar och vilka taggar som fanns i respektive
                 HTML-version
                 rekommenderas följande sida:
+            </p>
                 <ul>
                     <li>
                         <a href="http://www.martinrinehart.com/frontend-engineering/engineers/html/html-tag-history.html"
@@ -307,9 +307,8 @@
                         </a>
                     </li>
                 </ul>
-            </p>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <h2>Källor</h2>
             <ul>
                 <li>
@@ -339,14 +338,14 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </div>
 
         <!-- CSS Historik -->
-        <section id="css" class="both">
+        <div id="css" class="both">
             <img src="images/css.png" alt="CSS">
             <h1>CSS Historik</h1>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <p>
                 CSS kom till för första gången 1994 av Håkon Wium Lee. Vid den tiden fanns det olika typer av
                 stylesheets
@@ -357,8 +356,8 @@
                 samtidig. Sen 1996 så med hjälp av Bert Bos (co-creator) så släpptes CSS 1 med rekommendationer
                 av W3C.
             </p>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <h2>CSS 1</h2>
             <p>
                 I CSS’s historia har det varit flera buggar och implementations problem. Till att börja med tog
@@ -368,6 +367,7 @@
                 stöd. CSS 1 blev som tidigare nämnt den första style sheeten att bli officiellt rekommenderat
                 av W3C i
                 december 1996. CSS 1 hade support för.
+            </p>
                 <ul>
                     <li>Font egenskaper</li>
                     <li>Färg på tex, bakgrund och andra element</li>
@@ -375,9 +375,8 @@
                     <li>Margin, border, padding och positionering av olika element</li>
                     <li>Unika identifikationer och generell klassifikation av atributetsgrupper</li>
                 </ul>
-            </p>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <h2>CSS 2</h2>
             <p>
                 CSS 2 börjades att utvecklas i slutet av 1997 och blev rekommenderade av W3C 1998 efter drygt
@@ -385,6 +384,7 @@
                 utveckling. CSS 2 kom med en rad nya verktyg och var standard fram till 2005 då CSS 2.1
                 lanserades.
                 I CSS 2 hittar i fetures som:
+            </p>
                 <ul>
                     <li>Z index
                     <li>Absolut, relativ och fixed positionering</li>
@@ -393,9 +393,8 @@
                     <li>Bidirectional text</li>
                     <li>Nya font egenskaper som skuggor</li>
                 </ul>
-            </p>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <h2>CSS 2.1</h2>
             <p>
                 I CSS 2.1 så fixades det många fel och buggar från CSS 2, samt tog bort olika “Features” som
@@ -406,8 +405,8 @@
                 slutligen den 7
                 juni 2011 blev rekommenderat officiellt på W3C.
             </p>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <h2>CSS 3</h2>
             <p>
                 Utvecklingen av CSS 3 började redan 1998 och är fortfarande idag under utveckling. Den stora
@@ -423,8 +422,8 @@
                 <img src="images/css-moduler.png" alt="Tabell på CSS3 moduler">
                 <figcaption>Tabell över CSS3 moduler (hämtad från Wikipedia).</figcaption>
             </figure>
-        </section>
-        <section class="right">
+        </div>
+        <div class="right">
             <h2>Källor</h2>
             <ul>
                 <li>
@@ -438,14 +437,14 @@
                     </a>
                 </li>
             </ul>
-        </section>
+        </div>
 
         <!-- Om Oss-->
-        <section id="omoss" class="both">
+        <div id="omoss" class="both">
             <img src="https://via.placeholder.com/1024x300" alt="Om Oss">
             <h1>Om Oss</h1>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <img src="https://via.placeholder.com/100x100" alt="Daniel Hessling" class="profilbild">
             <p class="profiltext">
                 Daniel Hessling<br>
@@ -453,17 +452,17 @@
                 Nackademin<br>
                 daniel.hessling@yh.nackademin.se
             </p>
-        </section>
-        <section class="right">
-            <img src="images/Martin Jangdal-RedigeraSquareHighres.jpg" alt="Martin Jangdal" class="profilbild">
+        </div>
+        <div class="right">
+            <img src="images/martin.jpg" alt="Martin Jangdal" class="profilbild">
             <p class="profiltext">
                 Martin Jangdal<br>
                 Frontendutvecklare<br>
                 Nackademin<br>
                 martin.jangdal@yh.nackademin.se
             </p>
-        </section>
-        <section class="left">
+        </div>
+        <div class="left">
             <img src="images/andreas.jpg" alt="Andreas Åkerlöf" class="profilbild">
             <p class="profiltext">
                 Andreas Åkerlöf<br>
@@ -471,7 +470,7 @@
                 Nackademin<br>
                 andreas.akerlof@yh.nackademin.se
             </p>
-        </section>
+        </div>
     </main>
 
     <!-- FOOTER -->
@@ -479,8 +478,8 @@
         <!-- IKONER -->
         <div id="icons">
             <p>
-                <img src="images/html5.svg" width="100vw" alt="HTML">
-                <img src="images/css3.svg" width="100vw" alt="CSS">
+                <a href="https://validator.w3.org/check?uri=referer" target="_blank"><img src="images/html5.svg" width="100" alt="HTML"></a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="images/css3.svg" width="100" alt="CSS"></a>
             </p>
         </div>
         <!-- SITEMAP -->
@@ -516,7 +515,7 @@
         </div>
 
     </footer>
-    <button id="backToTop" class="backToTop"><a href="#top">Till Toppen</a></button>
+    <div id="backToTop" class="backToTop"><a href="#header">&uarr;</a></div>
 </body>
 
 </html>

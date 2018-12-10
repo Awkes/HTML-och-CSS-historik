@@ -70,7 +70,6 @@ header{
     color: #000;
 }
 
-
 nav{
     
 }
@@ -88,10 +87,6 @@ nav{
 /* MAIN */
 main{
     background-color: #EEE;
-}
-
-main section{
-    padding-top: 0px;
 }
 
 #tim,#html,#css,#omoss {
@@ -170,23 +165,22 @@ footer{
     color: #FFF;
 }
 
-
 .backToTop{
-    display: inline-block;
-    color: gray;
-    border: 1px solid white;
-    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 5px 14px;
     position: fixed;
-    bottom: 10px;
-    right: 30px;
+    bottom: 15px;
+    right: 15px;
     cursor: pointer;
     z-index: 99;
     font-size: 15px;
-
-
+    opacity: 0.75;
 }
 
 .backToTop a{
+    display: block;
     text-decoration: none;
-        
+    font-size: 1.5em;
+    color: #333;
 }
