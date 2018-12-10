@@ -74,14 +74,9 @@ nav{
     
 }
 
-.profiltext{
-    float: right;
-    width: 85%;
-}
 
-.profilbild{
-    width: 10%;
-    border-radius: 100%;
+.clearfix {
+    clear: both;
 }
 
 /* MAIN */
@@ -103,11 +98,11 @@ main{
     padding: 5px 12px 10px 12px;
     color: #fff;
     border-bottom: 1px solid #000;
-
+    
 }
 
 .both{
-
+    
 }
 
 .left, .right{
@@ -120,6 +115,24 @@ main{
 
 .left h2, .right h2{
     margin-top: 0px;
+}
+
+.profiltext{
+    float: left;
+    display: inline-block;
+    width: auto;
+    margin: 0px;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.profilbild{
+    float: left;
+    display: inline-block;
+    width: 10%;
+    margin: 0px;
+    min-width: 100px;
+    border-radius: 100%;
 }
 
 /* FOOTER */
