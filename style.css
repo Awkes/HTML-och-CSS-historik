@@ -50,10 +50,6 @@ header{
     width: 100%;
 }
 
-#logo{
-    
-}
-
 #logo h1{
     line-height: 0;
 }
@@ -185,4 +181,76 @@ main{
 footer{
     background-color: #000;
     color: #FFF;
+}
+
+@media(min-width: 768px) {
+    /* GENERAL */
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+        border: 1px solid #000;
+        box-shadow: 5px 0px 5px #CCC;
+        background-color: #FFF;
+    }
+
+    /* HEADER */
+    #logo {
+        width: 50%;
+        float: left;
+    }
+    
+    #navigation {
+        width: 50%;
+        float: right;
+        margin-top: 12px;
+    }
+    
+    /* MAIN */
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .left,.right {
+        width: 48%;
+        margin: 1%;
+    }
+
+    /* FOOTER */
+    #sitemap,#copy,#icons {
+        border: 0;
+    }
+
+    #sitemap {
+        float: left;
+        width: 33%;
+        text-align: left;
+    }
+  
+    #copy {
+        float: left;
+        width: 34%;
+        align-content: center;
+        font-size: 1em;
+        margin-top: 70px;
+    }
+
+    #icons {
+        float: right;
+        width: 33%;
+    }
+
+    #sitemap ul {
+        color: #FFF;
+        list-style-type: disc;
+        padding: 50px;
+    }
+
+    #sitemap li {
+        display: list-item;
+        padding: 3px;
+    }
 }
