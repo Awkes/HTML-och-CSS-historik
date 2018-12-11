@@ -194,7 +194,7 @@ main{
 footer{
     background-color: #000;
     color: #FFF;
-    border-top: 20px solid #EEE;
+    border-top: 30px solid #EEE;
 }
 
 /* STORA SKÄRMAR */
@@ -277,4 +277,64 @@ footer{
         display: list-item;
         padding: 3px;
     }
+
+    /*flex header footer*/
+
+    @supports(display: flex){
+
+        header{
+            display: flex;
+        }
+        footer{
+            display: flex;
+            
+        }
+
+        #sitemap{
+            order: 1;
+        }
+
+        #copy{
+            order: 2;
+        }
+
+        #icons{
+            order: 3;
+        }
+
+    }
+    /* Gridsupport Main*/
+    @supports(display: grid){
+        main{
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+        #tim,#omoss,#html,#css{
+            grid-column: span 2;
+        }
+
+        #omoss,#html,#css{
+            margin-top: 10px;
+        }
+        
+
+        .left, .right{
+            width: auto;
+        }
+
+        .left{
+            grid-column: 1;
+            margin: 10px 5px 0px 10px;
+        }
+
+        .right{
+            grid-column: 2;
+            margin: 10px 10px 0px 5px;
+        }
+        .both{
+            grid-column: 1 / span 2;
+            margin-right: 10px;
+        }
+    }
+
 }
