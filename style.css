@@ -160,9 +160,14 @@ main{
     border-bottom: 1px dotted #FFF;
 }
 
-#icons img{
-    margin: 10px;
+#icons p {
+    margin: 10px 0px 0px 0px;
     position: relative;
+    top: -32px;
+}
+
+#icons img {
+    margin: 0px 10px;
 }
 
 #sitemap a{
@@ -182,15 +187,17 @@ main{
 }
 
 #copy{
-    padding: 5px;
+    padding: 20px;
     font-size: 0.8em;
 }
 
 footer{
     background-color: #000;
     color: #FFF;
+    border-top: 20px solid #EEE;
 }
 
+/* STORA SKÄRMAR */
 @media(min-width: 768px) {
     /* GENERAL */
     body {
@@ -203,12 +210,12 @@ footer{
 
     /* HEADER */
     #logo {
-        width: 50%;
+        width: 45%;
         float: left;
     }
     
     #navigation {
-        width: 50%;
+        width: 55%;
         float: right;
         margin-top: 27px;
         text-align: right;
@@ -242,21 +249,28 @@ footer{
   
     #copy {
         float: left;
-        width: 34%;
+        width: 33%;
         align-content: center;
         font-size: 1em;
-        margin-top: 70px;
+        margin-top: 30px;
+        padding: 10px;
     }
 
     #icons {
         float: right;
-        width: 33%;
+        width: 34%;
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    #icons p {
+        top: -32px;
     }
 
     #sitemap ul {
         color: #FFF;
         list-style-type: disc;
-        padding: 50px;
+        padding: 10px 40px ;
     }
 
     #sitemap li {
