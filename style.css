@@ -98,7 +98,7 @@ header{
 }
 
 /* MAIN */
-main{
+#main{
     background-color: #EEE;
 }
 
@@ -305,7 +305,7 @@ footer{
     }
     /* Gridsupport Main*/
     @supports(display: grid){
-        main{
+        #main{
             display: grid;
             grid-template-columns: 50% 50%;
         }
