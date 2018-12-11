@@ -150,7 +150,6 @@ header{
 }
 
 /* FOOTER */
-
 #icons, #sitemap, #copy{
     text-align: center;
 }
@@ -278,13 +277,12 @@ footer{
         padding: 3px;
     }
 
-    /*flex header footer*/
-
+    /* FLEXBOX HEADER/FOOTER */
     @supports(display: flex){
-
         header{
             display: flex;
         }
+
         footer{
             display: flex;
             
@@ -301,9 +299,9 @@ footer{
         #icons{
             order: 3;
         }
-
     }
-    /* Gridsupport Main*/
+
+    /* GRID MAIN */
     @supports(display: grid){
         #main{
             display: grid;
@@ -317,7 +315,6 @@ footer{
             margin-top: 10px;
         }
         
-
         .left, .right{
             width: auto;
         }
@@ -331,10 +328,10 @@ footer{
             grid-column: 2;
             margin: 10px 10px 0px 5px;
         }
+
         .both{
             grid-column: 1 / span 2;
             margin-right: 10px;
         }
     }
-
 }
